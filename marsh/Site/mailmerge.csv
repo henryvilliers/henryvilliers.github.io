@@ -1,0 +1,2 @@
+TITLE,SURNAME,FORENAMES,HOME ADDRESS1,HOME ADDRESS2,HOME CITY,HOME POSTCODE,TERM ADDRESS1,TERM ADDRESS2,TERM CITY,TERM POSTCODE<%begindetail%>
+"<%insert_data_here%>","<%insert_data_here%>","<%insert_data_here%>","<%insert_data_here%>","<%insert_data_here%>","<%insert_data_here%>","<%insert_data_here%>","<%insert_data_here%>","<%insert_data_here%>","<%insert_data_here%>","<%insert_data_here%>"<%enddetail%>

@@ -1,0 +1,63 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+		<meta name="generator" content="Adobe GoLive 5">
+		<title>MARSH Graduate Recruitment - Application Form</title>
+		<script lang="JavaScript1.2"  src="js/marsh.js"> </script>
+		<script>
+			function delx(n){
+				if(confirm('Delete this Application')){
+					document.location='marshgrad.asp?action=delete&gradid='+n+'&next=gradlist';
+				}
+			}
+		</script>
+		<link rel="stylesheet" href="css/explorer.css"> </link>
+		<link rel="stylesheet" href="css/netscape.css"> </link>
+	</head>
+
+	<body leftmargin="0" topmargin="0" background="media/bground.gif"  bgcolor="#ffffff">
+		<form method=post action="marshgrad.asp">
+		<table border="0" cellpadding="0" cellspacing="0" width="342">
+			<tr height="14">
+				<td width="24" height="14"></td>
+				<td height="14"></td>
+			</tr>
+			<tr>
+				<td width="24"></td>
+				<td><img src="media/your_application.gif" width="317" height="35" border="0"></td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<table border="0" cellpadding="4" cellspacing="2" bordercolor="#c8c8c8">
+			<tr>
+				<td bgcolor="#989898"><span class="bodytextbold">Surname</span></td>
+				<td bgcolor="#989898"><span class="bodytextbold">Forname</span></td>
+				<td bgcolor="#989898"><span class="bodytextbold">status</span></td>
+				<td bgcolor="#989898"><span class="bodytextbold">Stages Completed</span></td>
+				<td bgcolor="#989898"><span class="bodytextbold">Application Date</span></td>
+				<td bgcolor="#989898"><span class="bodytextbold">Modified Date</span></td>
+				<td bgcolor="#989898"><span class="bodytextbold">Modified By</span></td>
+				<td bgcolor="#989898"><span class="bodytextbold"></span></td>
+			</tr>
+			<%begindetail%>
+			<tr>
+				<td bgcolor="#c8c8c8"><span class="bodytextsmall"><a href="javascript: void window.open('marshgrad.asp?action=nothing&gradid=<%insert_data_here%>&next=stageall&admin=1');"><%insert_data_here%></a></span></td>
+				<td bgcolor="#c8c8c8"><span class="bodytextsmall"><%insert_data_here%></span></td>
+				<td bgcolor="#c8c8c8"><span class="bodytextsmall"><%insert_data_here%></span></td>
+				<td bgcolor="#c8c8c8"><span class="bodytextsmall"><%insert_data_here%></span></td>
+				<td bgcolor="#c8c8c8"><span class="bodytextsmall"><%insert_data_here%></span></td>
+				<td bgcolor="#c8c8c8"><span class="bodytextsmall"><%insert_data_here%></span></td>
+				<td bgcolor="#c8c8c8"><span class="bodytextsmall"><%insert_data_here%></span></td>
+				<td bgcolor="#c8c8c8"><span class="bodytextsmall"><a href="javascript: delx(<%insert_data_here%>);">DELETE</a></span></td>
+			</tr>
+			<%enddetail%>
+		</table>
+		<%begindetail%>
+		<span class="bodytextsmall" style="position:absolute; top: 70; left:3;">Record Count: <%insert_data_here%></span>
+		<%enddetail%>
+		</form>
+	</body>
+
+</html>

@@ -1,0 +1,419 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+		<meta name="generator" content="Adobe GoLive 5">
+		<title>MARSH Graduate Recruitment - Application Form</title>
+		<script lang="JavaScript1.2"  src="js/marsh.js"> </script>
+		<link rel="stylesheet" href="css/explorer.css"> </link>
+		<link rel="stylesheet" href="css/netscape.css"> </link>
+		<script>
+			function reasoncheck(){
+				if(document.myform.status.selectedIndex==1){
+					document.myform.reason.disabled=false;
+				}else{
+					document.myform.reason.disabled=true;
+				}
+				//alert(document.myform.status.selectedIndex);
+			}
+		</script>
+	</head>
+
+	<body leftmargin="0" topmargin="0" background="media/bground.gif"  bgcolor="#ffffff">
+		<form method=post action="marshgrad.asp" name="myform">
+		<table border="0" cellpadding="0" cellspacing="0" width="342">
+			<tr height="14">
+				<td width="24" height="14"></td>
+				<td height="14"></td>
+			</tr>
+			<tr>
+				<td width="24"></td>
+				<td><img src="media/your_application.gif" width="317" height="35" border="0"></td>
+			</tr>
+		</table>
+		<p class="bodytextbold" align=center>Report Search Criteria</p>
+		<table border=0 cellpadding=2 cellspacing=1 bordercolor=black align=center>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Year Applying</span></td>
+				<td bgcolor="#e4e4e4"><select name="StartPeriodID" size="1" class=bodytextsmall>
+						<option value="-1">Any</option>
+						<option value="1">October 2001</option>
+						<option value="2">October 2002</option>
+						<option value="3">October 2003</option>
+						<option value="4">October 2004</option>
+						<option value="5">October 2005</option>
+					</select>
+				</td> 			
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Hear About</span></td>
+				<td bgcolor="#e4e4e4"><select name="HearAboutID" size="1" class="bodytextsmall">
+						<option value="-1">Any</option>
+						<option value="1">Prospect Directory</option>
+						<option value="2">Prospect Website</option>
+						<option value="3">Independent Newspaper</option>
+						<option value="4">GTI</option>
+						<option value="5">Milkround.com</option>
+						<option value="6">Thebigchoice.com</option>
+						<option value="7">University Careers Service</option>
+						<option value="8">National Graduate Recruitment Fair</option>
+						<option value="9">Recommendation</option>
+						<option value="10">Already Working for Marsh</option>
+						<option value="11">Other - Please Specify</option>
+					</select>
+				</td> 			
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">Area Of Interest</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">
+															<select name="AOI" class="bodytextsmall">
+																<option value="">Any</option>
+																<option value="HumanResources">Human Resources</option>
+																<option value="ClientManagement">Client Management</option>
+																<option value="Broking">Broking</option>
+																<option value="RiskConsulting">Risk Consulting</option>
+																<option value="IT">Information Technology</option>
+															</select>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Gender</span></td>
+				<td bgcolor="#e4e4e4"><select name="Gender" size="1" class="bodytextsmall">
+						<option value="-1">Either</option>
+						<option value="1">Male</option>
+						<option value="0">Female</option>
+					</select>
+				</td> 			
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Ethnic Origin</span></td>
+				<td bgcolor="#e4e4e4"><select name="EthnicOriginID" size="1" class="bodytextsmall">
+						<option value="-1">Any</option>
+						<option value="1">Black - African</option>
+						<option value="2">Black - Carribbean</option>
+						<option value="3">Black - Other</option>
+						<option value="4">Indian</option>
+						<option value="5">Pakistani</option>
+						<option value="6">Bangladeshi</option>
+						<option value="7">Chinese</option>
+						<option value="8">Asian - Other</option>
+						<option value="9">White - European</option>
+						<option value="10">White - Other</option>
+						<option value="11">Mixed race</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Surname</span></td>
+				<td bgcolor="#e4e4e4"><input type=text name="surname" class="bodytextsmall"></td>		
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Forename</span></td>
+				<td bgcolor="#e4e4e4"><input type=text name="forename" class="bodytextsmall"></td>		
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Application Status</span></td>
+				<td bgcolor="#e4e4e4"><select name="status" size="1" class="bodytextsmall" onchange="reasoncheck()">
+						<option value="">Any</option>
+						<option value="NSY">Screening</option>
+						<option value="RAP">RAP - Reject application</option>
+						<option value="IFR">IFR - Invite First Round</option>
+						<option value="RAT">RAT - Reject After Tests</option>
+						<option value="RAI">RAI - Reject After Interview</option>
+						<option value="IAC">IAC - Invite Assessment Centre</option>
+						<option value="RAA">RAA - Reject After Assessment</option>
+						<option value="OFFER">OFFER - Offer</option>
+						<option value="ACCEPT">ACCEPT - Accepted</option>
+						<option value="OR">OR - Offer Rejected</option>
+						<option value="HOLD">HOLD - Hold Application</option>
+						<option value="INA">INA - Incomplete Application</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">Reason</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">
+												<select name="reason" class="bodytextsmall" disabled>
+													<option value="-1">Any</option>
+													<option value="1">Residency</option>
+													<option value="2">Work Permit</option>
+													<option value="3">Degree Grade</option>
+													<option value="4">Other</option>
+												</select>
+												(applies only if application status is RAP)
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Region</span></td>
+				<td bgcolor="#e4e4e4"><select name="region" size="1" class="bodytextsmall">
+						<option value="">Any</option>
+						<option value="Lon">London</option>
+						<option value="SE">South East</option>
+						<option value="SW">South West</option>
+						<option value="Mid">Midlands</option>
+						<option value="NE">North East</option>
+						<option value="NW">North West</option>
+						<option value="Sco">Scotland</option>
+						<option value="Wal">Wales</option>
+					</select>
+				</td>		
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">University</span></td>
+				<td bgcolor="#e4e4e4"><select name="UniID" class="bodytextsmall">
+	<option value="-1">Any</option>
+	<option value="1">Aberdeen University</option>
+	<option value="2">Abertay University</option>
+	<option value="3">Anglia Polytechnic University</option>
+	<option value="4">Aston University</option>
+	<option value="5">Bath College of Higher Education</option>
+	<option value="6">Bath University</option>
+	<option value="7">Bell College of Technology</option>
+	<option value="8">Birmingham University</option>
+	<option value="9">Bolton Institute</option>
+	<option value="10">Bournemouth University</option>
+	<option value="11">Bradford University</option>
+	<option value="12">Brighton University</option>
+	<option value="13">Bristol University</option>
+	<option value="14">Brunel University</option>
+	<option value="15">Buckingham University</option>
+	<option value="16">Buckinghamshire College</option>
+	<option value="17">Cambridge University</option>
+	<option value="18">Canterbury Christ Church College</option>
+	<option value="19">Central Lancashire, University of</option>
+	<option value="20">Cheltenham and Gloucester HE College</option>
+	<option value="21">City College Norwich</option>
+	<option value="22">City University</option>
+	<option value="23">Colchester Institute</option>
+	<option value="24">College of Law, The</option>
+	<option value="25">Cork Univeristy</option>
+	<option value="26">Coventry University</option>
+	<option value="27">Cranfield University</option>
+	<option value="28">DeMontfort University</option>
+	<option value="29">Derby University</option>
+	<option value="30">Dundee University</option>
+	<option value="31">Durham University</option>
+	<option value="32">East Anglia, University of</option>
+	<option value="33">East London, University of</option>
+	<option value="34">Edinburgh University</option>
+	<option value="35">Essex University</option>
+	<option value="36">European Business School, London</option>
+	<option value="37">European School of Management</option>
+	<option value="38">Exeter University</option>
+	<option value="39">Glamorgan University</option>
+	<option value="40">Glasgow Caledonian University</option>
+	<option value="41">Glasgow University</option>
+	<option value="42">Greenwich University</option>
+	<option value="43">Heriot-Watt University</option>
+	<option value="44">Hertfordshire University</option>
+	<option value="45">Huddersfield University</option>
+	<option value="46">Hull University</option>
+	<option value="47">Humberside University</option>
+	<option value="48">Keele University</option>
+	<option value="49">Kent, Canterbury</option>
+	<option value="50">Kingston University</option>
+	<option value="51">Lancaster University</option>
+	<option value="52">Leeds Metropolitan University</option>
+	<option value="53">Leeds University</option>
+	<option value="54">Leicester University</option>
+	<option value="55">Liverpool John Moores University</option>
+	<option value="56">Liverpool University</option>
+	<option value="57">London Business School</option>
+	<option value="58">London Guildhall University</option>
+	<option value="59">Loughborough</option>
+	<option value="60">Luton, University of</option>
+	<option value="61">Manchester Metropolitan University</option>
+	<option value="62">Manchester University</option>
+	<option value="63">Middlesex University</option>
+	<option value="64">Napier University</option>
+	<option value="65">Newcastle University</option>
+	<option value="66">North London, University of</option>
+	<option value="67">Northumbria at Newcastle, University of</option>
+	<option value="68">Nottingham Trent University</option>
+	<option value="69">Nottingham University</option>
+	<option value="70">Open University</option>
+	<option value="71">Oxford Brookes University</option>
+	<option value="72">Oxford University</option>
+	<option value="73">Paisley University</option>
+	<option value="74">Pembrokeshire College</option>
+	<option value="75">Plymouth University</option>
+	<option value="76">Portsmouth University</option>
+	<option value="77">Queen Margaret College</option>
+	<option value="78">Queens University Belfast</option>
+	<option value="79">Reading University</option>
+	<option value="80">Robert Gordon University</option>
+	<option value="81">Roehampton Institute</option>
+	<option value="82">Royal Agricultural College</option>
+	<option value="83">Royal Military College of Science</option>
+	<option value="84">Royal Postgraduate Medical School</option>
+	<option value="85">Salford University</option>
+	<option value="86">Sheffield Hallam University</option>
+	<option value="87">Sheffield University</option>
+	<option value="88">South Bank University</option>
+	<option value="89">Southampton University</option>
+	<option value="90">St Andrews University</option>
+	<option value="91">St Davids University College</option>
+	<option value="92">Staffordshire University</option>
+	<option value="93">Stirling University</option>
+	<option value="94">Strathclyde University</option>
+	<option value="95">Sunderland University</option>
+	<option value="96">Surrey University</option>
+	<option value="97">Sussex University</option>
+	<option value="98">Swansea Institute of Higher Education</option>
+	<option value="99">Teeside, University of</option>
+	<option value="100">Thames Valley Univeristy</option>
+	<option value="101">Trinity College, Carmarthen</option>
+	<option value="102">Trinity College, Dublin</option>
+	<option value="103">UMIST</option>
+	<option value="104">University College - Brecon Hall</option>
+	<option value="105">University College - Chester</option>
+	<option value="106">University College - Edge Hill</option>
+	<option value="107">University College - Liverpool Hope</option>
+	<option value="108">University College - Ripon and York</option>
+	<option value="109">University College - St Martins</option>
+	<option value="110">University College - St Marys, Strawberry Hill</option>
+	<option value="111">University College - Suffolk</option>
+	<option value="112">University College - Trinity and All Saints</option>
+	<option value="113">University College - Warrington</option>
+	<option value="114">University College - Chichester</option>
+	<option value="115">University College - Dublin</option>
+	<option value="116">University College - Galway</option>
+	<option value="117">University College - Northhampton</option>
+	<option value="118">University of Central England</option>
+	<option value="119">University of London - Birkbeck</option>
+	<option value="120">University of London - Charing Cross / Westminster</option>
+	<option value="121">University of London - Goldsmith College</option>
+	<option value="122">University of London - Imperial College</option>
+	<option value="123">University of London - Kings College</option>
+	<option value="124">University of London - London School of Economics</option>
+	<option value="125">University of London - QMW</option>
+	<option value="126">University of London - Royal Holloway</option>
+	<option value="127">University of London - SOAS</option>
+	<option value="128">University of London - University College London</option>
+	<option value="129">University of London - Wye College</option>
+	<option value="130">University of the West of England, Bristol</option>
+	<option value="131">University of Ulster</option>
+	<option value="132">University of Wales College - Aberystwyth</option>
+	<option value="133">University of Wales College - Bangor</option>
+	<option value="134">University of Wales College - Cardiff</option>
+	<option value="135">University of Wales College - Lampeter</option>
+	<option value="136">University of Wales College - Newport</option>
+	<option value="137">University of Wales College - Swansea</option>
+	<option value="138">Warwick University</option>
+	<option value="139">Westminster, University of</option>
+	<option value="140">Wolverhampton, University of</option>
+	<option value="141">Worcester College of Higher Education</option>
+	<option value="142">York University</option>
+	<option value="143">Overseas - Please specify </option>
+</select>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Subject</span></td> 
+				<td bgcolor="#e4e4e4"><input type=text name=subject class="bodytextsmall"></td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Grade</span></td>
+				<td bgcolor="#e4e4e4"><select name="DegreeGradeID" size="1" class="bodytextsmall">
+						<option value="-1">Any</option>
+						<option value="1">Attained - 1st</option>
+						<option value="2">Attained - 2.1</option>
+						<option value="3">Attained - 2.2</option>
+						<option value="4">Anticipated - 1st</option>
+						<option value="5">Anticipated - 2.1</option>
+						<option value="6">Anticipated - 2.2</option>
+						</select>
+				</td>			
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Stages Completed</span></td>
+				<td bgcolor="#e4e4e4"><select name="StagesCompleted" size="1" class="bodytextsmall">
+						<option value="-1">Any</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						</select>
+				</td>			
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall">Date Range</span></td> 
+				<td bgcolor="#e4e4e4"><span class="bodytextsmall">From: <input type=text name=From class="bodytextsmall"> (e.g. 13 jun 2000)</span></td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3"><span class="bodytextsmall"></span></td> 
+				<td bgcolor="#e4e4e4"><span class="bodytextsmall">To:</span> <input type=text name=To class="bodytextsmall" style="position:relative; left:+14"><span class="bodytextsmall"style="position:relative; left:+14"> (e.g. 13 jun 2000)</span></td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#c3c3c3" class="bodytextsmall">&nbsp;</td>
+				<td bgcolor="#e4e4e4" class="bodytextsmall" align=right>
+					<input type=submit value="Search" class="bodytextsmall">
+					<input type="button" value="Create CSV" class="bodytextsmall" onclick="document.myform.next.value='createcsv'; document.myform.submit();">
+					</td>
+			</tr>
+		</table>
+		<input type=hidden name="next" value="report">
+		<input type=hidden name="action" value="nothing">
+		</form>
+	</body>
+
+</html>

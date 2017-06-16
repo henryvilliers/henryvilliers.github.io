@@ -1,0 +1,43 @@
+<HTML>
+<HEAD>
+<TITLE>MARSH Graduate Recruitment - Application Form</TITLE>
+</HEAD>
+<BODY bgcolor="#C8C8C8" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+var InternetExplorer = navigator.appName.indexOf("Microsoft") != -1;
+// Handle all the the FSCommand messages in a Flash movie
+function main_DoFSCommand(command, args) {
+  var mainObj = InternetExplorer ? main : document.main;
+  //
+		
+			centery=(screen.height-460)/2;
+			centerx=(screen.width-770)/2;
+			//openpopup('main.html','popup','460','770',centerx,centery,'no','yes')
+			xx=window.open('site/intro.html','_blank','height=600, width=600, left='+centerx+', top='+centery+', resizable, scrollbars');
+			if(document.layers){
+				document.location='http://www.cnn.com';
+			}
+  //
+}
+// Hook for Internet Explorer 
+if (navigator.appName && navigator.appName.indexOf("Microsoft") != -1 && 
+	  navigator.userAgent.indexOf("Windows") != -1 && navigator.userAgent.indexOf("Windows 3.1") == -1) {
+	document.write('<SCRIPT LANGUAGE=VBScript\> \n');
+	document.write('on error resume next \n');
+	document.write('Sub main_FSCommand(ByVal command, ByVal args)\n');
+	document.write('  call main_DoFSCommand(command, args)\n');
+	document.write('end sub\n');
+	document.write('</SCRIPT\> \n');
+}
+//-->
+</SCRIPT>
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ ID=main WIDTH=100% HEIGHT=100%>
+ <PARAM NAME=movie VALUE="main.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#C8C8C8> <EMBED src="main.swf" quality=high bgcolor=#C8C8C8  WIDTH=100% HEIGHT=100%	swLiveConnect=true NAME=main TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></EMBED>
+</OBJECT>
+</BODY>
+</HTML>
